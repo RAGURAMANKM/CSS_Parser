@@ -1,2 +1,3 @@
 # CSS_Parser
 I created this parser using Python's regular expressions. It reads the CSS file, removes comments, and extracts selectors, properties, and values.
+I developed a simple CSS parser using Python. First, the program reads a CSS file and removes CSS comments using regular expressions. Next, it identifies CSS selectors and extracts their corresponding properties and values. I store the extracted information in Python dictionaries and lists, then convert it into JSON format for easy reading. One edge case I considered was CSS comments, and one limitation is that my parser currently supports simple CSS rules rather than all CSS syntax.
